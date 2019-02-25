@@ -34,3 +34,33 @@ function drop(event) {
 function allowDrop(event) {
     event.preventDefault();
 }
+
+function highlight1(text) {
+    var paragraph1 = document.getElementById("paragraph1");
+    var innerHTML = paragraph1.innerHTML;
+    var index = innerHTML.indexOf(text);
+    if (index >= 0) {
+        innerHTML = innerHTML.substring(0,index) + "<span class='highlight'>" + innerHTML.substring(index,index+text.length) + "</span>" + innerHTML.substring(index + text.length);
+        paragraph1.innerHTML = innerHTML;
+    }
+}
+
+function highlight2(text) {
+    var paragraph1 = document.getElementById("paragraph2");
+    var innerHTML = paragraph1.innerHTML;
+    var index = innerHTML.indexOf(text);
+    if (index >= 0) {
+        innerHTML = innerHTML.substring(0,index) + "<span class='highlight'>" + innerHTML.substring(index,index+text.length) + "</span>" + innerHTML.substring(index + text.length);
+        paragraph1.innerHTML = innerHTML;
+    }
+}
+
+function highlight3(text) {
+    var paragraph1 = document.getElementById("paragraph3");
+    var innerHTML = paragraph1.innerHTML;
+    var index = innerHTML.indexOf(text);
+    if (index >= 0) {
+        innerHTML = innerHTML.substring(0,index) + "<span class='highlight'>" + innerHTML.substring(index,index+text.length) + "</span>" + innerHTML.substring(index + text.length);
+        paragraph1.innerHTML = innerHTML;
+    }
+}
