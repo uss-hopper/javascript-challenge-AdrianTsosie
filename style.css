@@ -1,0 +1,30 @@
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+@font-face {
+    font-family: 'Chonburi', cursive;
+    src: url('https://fonts.googleapis.com/css?family=Chonburi|Lato')
+}
+
+#div1 {
+    width: 900px;
+    height: 100px;
+    padding: 40px;
+    border: 2px solid dimgrey;
+}
+
+#div2 {
+    width: 900px;
+    height: 100px;
+    padding: 40px;
+    border: 2px solid dimgrey;
+}
+
+#div3 {
+    width: 900px;
+    height: 100px;
+    padding: 40px;
+    border: 2px solid dimgrey;
+}
+
